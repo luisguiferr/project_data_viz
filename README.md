@@ -1,8 +1,8 @@
 
-# 📊 Projeto de Visualização de Dados  
+# 📊 Projetos de Visualização de Dados  
 
 ## 📌 Introdução  
-Este repositório apresenta análises exploratórias de dados de vendas e composição, aplicando técnicas de visualização para extrair insights, identificar padrões e compreender melhor o comportamento do mercado.  
+Este repositório apresenta análises exploratórias de diferentes datasets, dados de vendas (distribuição e comparação) e dados do PIB do Brasil (composição), aplicando técnicas de visualização para extrair insights, identificar padrões e compreender melhor o comportamento do mercado.  
 
 ## 🎯 Objetivos  
 - Explorar e compreender os dados.  
@@ -16,35 +16,17 @@ Este repositório apresenta análises exploratórias de dados de vendas e compos
 - **Bibliotecas**: pandas, numpy, matplotlib, seaborn e plotly.  
 - **Tratamento dos Dados**: importação, limpeza e ajuste de tipos.  
 - **Exploração Inicial**: estatísticas e dicionário de variáveis.  
-- **Visualizações**:  
-  - Vendas e lucros por ano, região, segmento e produtos.  
-  - Gráficos de composição e comparação entre categorias.  
-
-## 📊 Dicionário de Dados  
-- **data_pedido**: data do pedido.  
-- **data_envio**: data de envio.  
-- **modo_envio**: modalidade de envio.  
-- **nome_cliente**: cliente.  
-- **segmento_cliente**: segmento (B2B ou B2C).  
-- **cidade, estado, regiao**: destino.  
-- **departamento, tipo_produto**: classificação.  
-- **preco_base**: preço base/unidade.  
-- **preco_unit_sem_desc**: preço unitário sem desconto.  
-- **desconto**: desconto aplicado.  
-- **preco_unit_venda**: preço unitário com desconto.  
-- **quantidade**: itens vendidos.  
-- **vendas**: valor total.  
-- **lucro**: lucro ou prejuízo.  
+- **Visualizações**  
 
 👤 **Autor**: Luís Ferreira  
 📅 **Criado em**: Ago/2025  
 
 ---
 
-# 📊 Sales Data Visualization Project  
+# 📊 Data Visualization Projects  
 
 ## 📌 Introduction  
-This repository presents exploratory analyses of sales and composition data, applying visualization techniques to extract insights, identify patterns, and better understand market behavior.  
+This repository presents exploratory analyses of different datasets, including sales data (distribution and comparison) and Brazil's GDP data (composition), applying visualization techniques to extract insights, identify patterns, and better understand market behavior.
 
 ## 🎯 Objectives  
 - Explore and understand data.  
@@ -58,25 +40,7 @@ This repository presents exploratory analyses of sales and composition data, app
 - **Libraries**: pandas, numpy, matplotlib, seaborn, plotly.  
 - **Data Processing**: import, cleaning, and type adjustments.  
 - **Initial Exploration**: statistics and data dictionary.  
-- **Visualizations**:  
-  - Sales and profit by year, region, segment, and products.  
-  - Composition and comparison charts across categories.  
-
-## 📊 Data Dictionary  
-- **data_pedido**: order date.  
-- **data_envio**: shipment date.  
-- **modo_envio**: shipping method.  
-- **nome_cliente**: customer.  
-- **segmento_cliente**: segment (B2B or B2C).  
-- **cidade, estado, regiao**: destination.  
-- **departamento, tipo_produto**: classification.  
-- **preco_base**: base price/unit.  
-- **preco_unit_sem_desc**: unit price without discount.  
-- **desconto**: discount applied.  
-- **preco_unit_venda**: unit price with discount.  
-- **quantidade**: items sold.  
-- **vendas**: total sales value.  
-- **lucro**: profit or loss.  
+- **Visualizations**
 
 👤 **Author**: Luís Ferreira  
 📅 **Created in**: Aug/2025  
