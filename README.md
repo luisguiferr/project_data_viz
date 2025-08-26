@@ -1,73 +1,82 @@
-## README.md (Portuguese)
-# Projeto de Visualização de Dados de Vendas
 
-Este projeto apresenta uma análise exploratória de um **conjunto de dados de vendas**, aplicando técnicas de **visualização de dados** para extrair insights e compreender melhor o comportamento do mercado.
+# 📊 Projeto de Visualização de Dados  
 
-## Objetivos
-- Explorar e compreender os dados de vendas.
-- Criar visualizações didáticas e informativas.
-- Identificar tendências de receita e lucro ao longo do tempo.
-- Avaliar o desempenho de segmentos, regiões e categorias de produtos.
+## 📌 Introdução  
+Este repositório apresenta análises exploratórias de dados de vendas e composição, aplicando técnicas de visualização para extrair insights, identificar padrões e compreender melhor o comportamento do mercado.  
 
-## Estrutura do Projeto
-1. **Paleta de Cores**: definição de cores padronizadas para gráficos.  
-2. **Bibliotecas**: importação de `pandas`, `numpy`, `matplotlib`, `seaborn` e `plotly`.  
-3. **Tratamento dos Dados**: importação do dataset e ajuste de tipos de dados.  
-4. **Exploração Inicial**: estatísticas e dicionário de variáveis.  
-5. **Visualizações**: gráficos de vendas e lucros por ano, região, segmento e produtos.  
+## 🎯 Objetivos  
+- Explorar e compreender os dados.  
+- Criar visualizações claras e informativas.  
+- Identificar tendências de receita e lucro ao longo do tempo.  
+- Avaliar desempenho por segmentos, regiões e categorias de produtos.  
+- Analisar composições e relacionamentos entre variáveis.  
 
-## Dicionário dos Dados
-- `data_pedido`: data em que o pedido foi realizado.  
-- `data_envio`: data de envio do pedido.  
-- `modo_envio`: modalidade de envio escolhida.  
-- `nome_cliente`: nome do cliente.  
-- `segmento_cliente`: segmento do cliente (B2B ou B2C).  
-- `cidade`, `estado`, `regiao`: destino do pedido.  
-- `departamento`, `tipo_produto`: classificação do produto.  
-- `preco_base`: preço base por unidade.  
-- `preco_unit_sem_desc`: preço unitário sem desconto.  
-- `desconto`: desconto aplicado.  
-- `preco_unit_venda`: preço unitário com desconto.  
-- `quantidade`: quantidade de itens vendidos.  
-- `vendas`: valor total da venda.  
-- `lucro`: lucro ou prejuízo da empresa.  
+## 📂 Estrutura do Projeto  
+- **Paleta de Cores**: conjunto padronizado para os gráficos.  
+- **Bibliotecas**: pandas, numpy, matplotlib, seaborn e plotly.  
+- **Tratamento dos Dados**: importação, limpeza e ajuste de tipos.  
+- **Exploração Inicial**: estatísticas e dicionário de variáveis.  
+- **Visualizações**:  
+  - Vendas e lucros por ano, região, segmento e produtos.  
+  - Gráficos de composição e comparação entre categorias.  
 
-Autor: Luís Ferreira
-Projeto criado em: Ago/2025
+## 📊 Dicionário de Dados  
+- **data_pedido**: data do pedido.  
+- **data_envio**: data de envio.  
+- **modo_envio**: modalidade de envio.  
+- **nome_cliente**: cliente.  
+- **segmento_cliente**: segmento (B2B ou B2C).  
+- **cidade, estado, regiao**: destino.  
+- **departamento, tipo_produto**: classificação.  
+- **preco_base**: preço base/unidade.  
+- **preco_unit_sem_desc**: preço unitário sem desconto.  
+- **desconto**: desconto aplicado.  
+- **preco_unit_venda**: preço unitário com desconto.  
+- **quantidade**: itens vendidos.  
+- **vendas**: valor total.  
+- **lucro**: lucro ou prejuízo.  
 
-## README.md (English)
-# Sales Data Visualization Project
+👤 **Autor**: Luís Ferreira  
+📅 **Criado em**: Ago/2025  
 
-This project presents an exploratory analysis of a **sales dataset**, applying **data visualization** techniques to extract insights and better understand market behavior.
+---
 
-## Objectives
-- Explore and understand sales data.  
+# 📊 Sales Data Visualization Project  
+
+## 📌 Introduction  
+This repository presents exploratory analyses of sales and composition data, applying visualization techniques to extract insights, identify patterns, and better understand market behavior.  
+
+## 🎯 Objectives  
+- Explore and understand data.  
 - Create clear and informative visualizations.  
 - Identify revenue and profit trends over time.  
 - Evaluate performance by customer segments, regions, and product categories.  
+- Analyze compositions and relationships between variables.  
 
-## Project Structure
-1. **Color Palette**: predefined set of colors for charts.  
-2. **Libraries**: imports `pandas`, `numpy`, `matplotlib`, `seaborn`, and `plotly`.  
-3. **Data Processing**: dataset import and type adjustments.  
-4. **Initial Exploration**: statistics and data dictionary.  
-5. **Visualizations**: charts of sales and profit by year, region, customer segment, and products.  
+## 📂 Project Structure  
+- **Color Palette**: standardized set for charts.  
+- **Libraries**: pandas, numpy, matplotlib, seaborn, plotly.  
+- **Data Processing**: import, cleaning, and type adjustments.  
+- **Initial Exploration**: statistics and data dictionary.  
+- **Visualizations**:  
+  - Sales and profit by year, region, segment, and products.  
+  - Composition and comparison charts across categories.  
 
-## Data Dictionary
-- `data_pedido`: order placement date.  
-- `data_envio`: order shipment date.  
-- `modo_envio`: shipping method.  
-- `nome_cliente`: customer name.  
-- `segmento_cliente`: customer segment (B2B or B2C).  
-- `cidade`, `estado`, `regiao`: order destination.  
-- `departamento`, `tipo_produto`: product classification.  
-- `preco_base`: base price per unit.  
-- `preco_unit_sem_desc`: unit price without discount.  
-- `desconto`: applied discount.  
-- `preco_unit_venda`: unit price with discount.  
-- `quantidade`: number of items sold.  
-- `vendas`: total sales value.  
-- `lucro`: company profit or loss.  
+## 📊 Data Dictionary  
+- **data_pedido**: order date.  
+- **data_envio**: shipment date.  
+- **modo_envio**: shipping method.  
+- **nome_cliente**: customer.  
+- **segmento_cliente**: segment (B2B or B2C).  
+- **cidade, estado, regiao**: destination.  
+- **departamento, tipo_produto**: classification.  
+- **preco_base**: base price/unit.  
+- **preco_unit_sem_desc**: unit price without discount.  
+- **desconto**: discount applied.  
+- **preco_unit_venda**: unit price with discount.  
+- **quantidade**: items sold.  
+- **vendas**: total sales value.  
+- **lucro**: profit or loss.  
 
-Author: Luis Ferreira
-Project created in: Aug/2025
+👤 **Author**: Luís Ferreira  
+📅 **Created in**: Aug/2025  
