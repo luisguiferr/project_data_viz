@@ -2,7 +2,7 @@
 # Projetos de Visualização de Dados  
 
 ## Introdução  
-Este repositório apresenta análises exploratórias de diferentes datasets, dados de vendas (distribuição e comparação) e dados do PIB do Brasil (composição), aplicando técnicas de visualização para extrair insights, identificar padrões e compreender melhor o comportamento do mercado.  
+Este repositório apresenta análises exploratórias de diferentes datasets, dados de vendas (distribuição e comparação), dados do PIB do Brasil (composição) e dados do IBDE (relacionamento) aplicando técnicas de visualização para extrair insights, identificar padrões e compreender melhor o comportamento do mercado.  
 
 ## Objetivos  
 - Explorar e compreender os dados.  
@@ -26,7 +26,7 @@ Este repositório apresenta análises exploratórias de diferentes datasets, dad
 # Data Visualization Projects  
 
 ## Introduction  
-This repository presents exploratory analyses of different datasets, including sales data (distribution and comparison) and Brazil's GDP data (composition), applying visualization techniques to extract insights, identify patterns, and better understand market behavior.
+This repository presents exploratory analyses of different datasets, including sales data (distribution and comparison), Brazil's GDP data (composition) and Brazil's IBDE (relationship), applying visualization techniques to extract insights, identify patterns, and better understand market behavior.
 
 ## Objectives  
 - Explore and understand data.  
